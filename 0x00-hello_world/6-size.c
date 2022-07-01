@@ -5,7 +5,6 @@
  */
 int main(void)
 }
-
 	int i;
 	long int l;
 	long long int ll;
@@ -18,5 +17,4 @@ int main(void)
 	printf("size of a long long int: %lu byte(s)\n", sizeof(ll));
 	printf("size of a float: %lu byte(s)\n", sizeof(d));
 	return (0);
-
 }
