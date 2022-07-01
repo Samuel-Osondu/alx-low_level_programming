@@ -5,7 +5,7 @@
  */
 int main(void)
 }
-	int i;
+        int i;
 	long int l;
 	long long int ll;
 	float d;
