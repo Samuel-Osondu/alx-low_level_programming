@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - prints the alphabet in lowercase
+* main - Prints the alphabet in lowercase
 *
 * Return: 0 if success
 */
@@ -14,6 +14,7 @@ int main(void)
 	{
 	putchar(d);
 	d++;
+	}
 	putchar('\n');
-	return (0);
+	return (o);
 }
