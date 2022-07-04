@@ -1,26 +1,24 @@
-include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
- *main - main function
- *
- * Return: 0
- **/
+* main - prints the alphabet in lower case, and then in uppercase
+* followed by a new line
+*
+* Return: 0 (success)
+*/
 int main(void)
 {
-	char c, C;
+	int ch;
 
-	c = 'a';
-	C = 'A';
-
-	while (c <= 'z')
+	for (ch = 97; ch <= 122; ch++)
 	{
-	putchar(c);
-	c++;
+	putchar(ch);
 	}
-	while (C <= 'Z')
+	for (ch = 65; ch <= 90; ch++)
 	{
-	putchar(C);
-	C++;
+	putchar(ch);
 	}
-	putchar('\n');
+	putchar(10);/* this is the ASCII code for new line*/
 	return (0);
 }
