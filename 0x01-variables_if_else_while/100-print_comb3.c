@@ -13,6 +13,8 @@ int main(void)
 
 	for (ch = 48; ch <= 57; ch++)
 	{
+	for (n = 49; n <= 57; n++)
+	{
 	if (n > ch)
 	{
 	putchar(ch);
