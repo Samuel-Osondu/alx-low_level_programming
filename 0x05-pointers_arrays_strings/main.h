@@ -1,8 +1,6 @@
-#ifndef MAIN_H
+#ifndef _main_h_
+#define _main_h_
 
-#define MAIN_H
-
-#include <stdio.h>
 void reset_to_98(int *n);
 
 #endif
