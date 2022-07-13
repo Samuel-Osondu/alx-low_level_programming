@@ -1,1 +1,1 @@
-journey to becoming fullstack engineer in alx
+i am a low level programmer in alx
