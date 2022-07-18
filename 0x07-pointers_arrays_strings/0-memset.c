@@ -6,6 +6,7 @@
  * @s: char to check
  * @b: char to check
  * @n: unsigned int to check
+ *
  * Return: to char
  */
 char *_memset(char *s, char b, unsigned int n)
