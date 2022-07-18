@@ -1,5 +1,4 @@
 #include "main"
-
 /**
  * print_chessboard - print the chessboard
  *
