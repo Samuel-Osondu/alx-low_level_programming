@@ -1,22 +1,22 @@
 #include "main.h"
 /**
- * _strlen_recursion - returns the length of a string
+ * factorial -  return the factorial of a given number
  *
- * @s: pointer to a char to check
+ * @n: int to check
  *
- * Return: 0 is success
+ * Return: the factorial number of n
  */
-int _strlen_recursion(char *s)
+int factorial(int n)
 {
-	int c;
-
-	if (*s == '\0')
+	if (n < 0)
 	{
-		return (0);
+		return (-1);
+	if (n == 0)
+	{
+		return (1);
 	}
 	else
 	{
-		c = _strlen_recursion(s + 1);
+		return (n * factorial(n - 1));
 	}
-	return (c + 1);
 }
