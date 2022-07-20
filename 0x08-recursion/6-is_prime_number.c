@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _esprimo - shows me when a number is prime
  *
