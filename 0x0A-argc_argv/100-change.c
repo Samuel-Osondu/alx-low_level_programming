@@ -72,4 +72,3 @@ printf("%d\n", coin);
 
 return (0);
 }
-
