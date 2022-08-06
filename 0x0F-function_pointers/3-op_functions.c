@@ -53,6 +53,8 @@ int op_div(int a, int b)
 	return (a / b);
 }
 
+
+
 /**
  * op_mod - calculates the module of two numbers.
  * @a: first number.
